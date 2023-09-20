@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import React from 'react';
-import netflixImg from '../public/assets/projects/netflix.jpg';
-import { RiRadioButtonFill } from 'react-icons/ri';
-import Link from 'next/link';
+import Image from "next/image";
+import React from "react";
+import netflixImg from "../public/assets/projects/netflix.jpg";
+import { RiRadioButtonFill } from "react-icons/ri";
+import Link from "next/link";
 
 const netflix = () => {
   return (
@@ -36,14 +36,14 @@ const netflix = () => {
             management.
           </p>
           <a
-            href='https://github.com/fireclint/netflix-react-tailwind'
+            href='https://github.com/srinivastheja/netflixgpt/tree/dev/netflixgpt'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://fireclint.github.io/netflix-react-tailwind/'
+            href='https://github.com/srinivastheja/netflixgpt/tree/dev/netflixgpt'
             target='_blank'
             rel='noreferrer'
           >

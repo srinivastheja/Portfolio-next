@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import React from "react";
+import { RiMailSendLine } from "react-icons/ri";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FiPhoneCall } from "react-icons/fi";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
@@ -48,7 +47,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='https://github.com/fireclint'
+                    href='https://github.com/srinivastheja'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -62,13 +61,14 @@ const Contact = () => {
                       <FiPhoneCall />
                     </a>
                   </div>
-                  <Link href='/resume'>
-                    <a>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
-                      </div>
-                    </a>
-                  </Link>
+
+                  <a>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <a href='mailto:srinivas@gmail.com'>
+                        <RiMailSendLine />
+                      </a>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>

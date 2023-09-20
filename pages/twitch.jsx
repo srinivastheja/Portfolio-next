@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import React from 'react';
-import twitchImg from '../public/assets/projects/twitch.jpg';
-import { RiRadioButtonFill } from 'react-icons/ri';
-import Link from 'next/link';
+import Image from "next/image";
+import React from "react";
+import twitchImg from "../public/assets/projects/twitch.jpg";
+import { RiRadioButtonFill } from "react-icons/ri";
+import Link from "next/link";
 
 const twitch = () => {
   return (
@@ -35,7 +35,7 @@ const twitch = () => {
             few features to note with this project are lazy loading images using
             the Image component, built in routing, and Next/Auth Context.
           </p>
-          <a
+          {/* <a
             href='https://twitch-nextjs-tailwind.vercel.app/'
             target='_blank'
             rel='noreferrer'
@@ -48,8 +48,7 @@ const twitch = () => {
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4'>Code</button>
-          </a>
-
+          </a> */}
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>

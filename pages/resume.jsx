@@ -18,6 +18,9 @@ const resume = () => {
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
           <h2 className='text-center'>Srinivas Teja</h2>
+          <h4 className='my-4 mx-auto items-end'>
+            srinivasteja.vallampati@gmail.com
+          </h4>
           <div className='flex'>
             <a
               href='https://www.linkedin.com/in/srinivastejav/'
